@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet Abbreviation</title>
+</head>
+
+<body>
+    <!-- P>img - all tags -->
+    <p><img src="" alt=""></p>
+    <a href=""><img src="" alt=""></a>
+    <!-- a+p -->
+    <a href=""></a>
+    <p></p>
+    <!-- p>p>p>p>p - inside and inside p -->
+    <P>
+    <P>
+    <P>
+    <P></P>
+    </P>
+    </P>
+    </P>
+    <!-- p{insert information in p tag} -->
+    <p>This is para</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, expedita.</p>
+
+    <!-- p#para1 -->
+    <p id="para1"></p>
+    <!-- p.para -->
+    <p class="para"></p>
+
+    <div class="container">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- non-sementic tag -->
+    <div style="background-color: aqua;">This is div</div>
+    <div style="background-color: rgb(0, 110, 255);">This is div</div>
+    <span style="background-color: coral;">This is first span.</span>
+    <span style="background-color: lime;">second span.</span>
+
+    <!-- ul>li*7 -->
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+    </ul>
+
+    <!-- ul>(li>p)*7 -->
+    <ul>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+    </ul>
+
+    <!-- ul>(li>p>a)*7 -->
+    <ul>
+        <li>
+            <p><a href="https://www.codehelp.in">A</a></p>
+        </li>
+        <li>
+            <p><a href="">B</a></p>
+        </li>
+        <li>
+            <p><a href="">C</a></p>
+        </li>
+        <li>
+            <p><a href="">D</a></p>
+        </li>
+        <li>
+            <p><a href="">E</a></p>
+        </li>
+        <li>
+            <p><a href="">F</a></p>
+        </li>
+        <li>
+            <p><a href="">G</a></p>
+        </li>
+    </ul>
+
+    <!-- nav>ul>(li>a)*4 -->
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Telephone numbers with tel: URLs
+    Email addresses with mailto: URLs
+    SMS text messages with sms: URLs -->
+
+    <ul>
+        <li><a href="https://google.com">Website</a></li>
+        <li><a href="mailto:abc@gmail.com">Email</a></li>
+        <li><a href="tel:+1234567890">Phone</a></li>
+    </ul>
+
+</body>
+
+</html>

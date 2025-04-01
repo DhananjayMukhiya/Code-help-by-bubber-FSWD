@@ -1,0 +1,33 @@
+h1{
+    color: coral;
+}
+
+
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline-block element */
+  font-size: 16px; /* Text size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+} 
+
+
+#box{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* box-shadow: offsetX offsetY blur-radius spread-radius color; */
+
+        /* Example: Basic Box Shadow */
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            box-shadow: 10px 10px 15px gray;
+        }
+
+        /* Example: Multiple Shadows */
+
+        .box {
+            box-shadow: 5px 5px 10px red, -5px -5px 10px blue;
+        }
+
+        /* Example: Inner Shadow (inset) */
+
+        .box {
+            box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .text {
+            font-size: 40px;
+            color: white;
+            text-shadow: 3px 3px 5px rgb(250, 0, 0);
+        }
+
+        .text {
+            text-shadow: 2px 2px 5px red, -2px -2px 5px blue;
+        }
+
+        .glow-text {
+            font-size: 50px;
+            color: white;
+            text-shadow: 0 0 10px cyan, 0 0 20px blue, 0 0 30px darkblue;
+        }
+
+        .card {
+            width: 250px;
+            padding: 20px;
+            background: rgb(47, 88, 255);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="text">Dhananjay</h2>
+        </div>
+
+        <h1 class="glow-text">Dhananjaycoders</h1>
+
+
+        <div class="card"></div>
+    </div>
+
+
+</body>
+
+</html>

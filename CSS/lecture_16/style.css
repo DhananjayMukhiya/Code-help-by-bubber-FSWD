@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eae2b7;
+    font-family: sans-serif;
+}
+
+span, p, div {
+    display: inline-block;
+    border: 2px solid #003049;
+    background-color: #d62828;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}

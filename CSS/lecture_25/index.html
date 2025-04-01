@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Transform</title>
+    <style>
+        /* Basic Syntax of 2D Transform */
+
+        /* element {
+            transform: function(value);
+        } */
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background: red;
+            transform: translate(50px, 20px);
+            /* transform: translateX(50px);
+            transform: translateY(-30px); */
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background: rgb(0, 217, 255);
+            transform: rotate(45deg);
+            transform: rotate(-45deg);
+
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background: rgb(0, 217, 255);
+            /* transform: scale(1.5, 1.5); */
+            transform: scaleX(2);
+            transform: scaleY(0.5);
+
+        }
+
+        .box4 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background: rgb(0, 217, 255);
+            /* transform: skew(20deg, 10deg); */
+            transform: skewX(30deg);
+            transform: skewY(-20deg);
+
+        }
+
+        .box5 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background: rgb(0, 217, 255);
+            transform: matrix(1, 0.5, 0, 1, 50, 100);
+        }
+
+        .box6 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background: rgb(0, 217, 255);
+            transform: rotate(30deg) translateX(50px) scale(1.2);
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            transition: transform 0.5s;
+        }
+
+        .box:hover {
+            transform: scale(1.2) rotate(10deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">box</div>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6">Dhananjay</div>
+</body>
+
+</html>

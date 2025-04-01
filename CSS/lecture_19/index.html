@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and FLow</title>
+    <style>
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear-both {
+            clear: both;
+        }
+
+        .overflow-auto {
+            overflow: auto;
+        }
+
+        /* .overflow-scroll {
+            overflow: scroll;
+        } */
+
+        /* .overflow-hidden {
+            overflow: hidden;
+        } */
+
+        /* .overflow-visible {
+            overflow: visible;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2YQ6sDE9GhXbsi6G5cDZ9Cou56klCQJKCfR_FwsUVCBGEdi1sCMFMutY60sKhdjJx01VNQj-P6BULt_-IBSXgA"
+        class="float-left" width="150">
+    <p>This text will wrap around the image.</p> -->
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2YQ6sDE9GhXbsi6G5cDZ9Cou56klCQJKCfR_FwsUVCBGEdi1sCMFMutY60sKhdjJx01VNQj-P6BULt_-IBSXgA"
+        class="float-left" width="150">
+    <p>This text is wrapping around the image.</p>
+
+    <div class="clear-both"></div>
+    <p>This text will appear below the image.</p>
+
+    <div class="overflow-scroll overflow-auto overflow-hidden overflow-visible" style="width: 200px; height: 100px; border: 1px solid black;">
+        <p>Some long text that does not fit in the box... Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam mollitia atque ex praesentium? Dolor fugiat accusantium tempora alias. Commodi eos quod vel consectetur esse dignissimos voluptatum, similique quia expedita.</p>
+    </div>
+
+
+</body>
+
+</html>

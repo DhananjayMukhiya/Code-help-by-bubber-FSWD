@@ -1,0 +1,29 @@
+/* footer {
+    color: green;
+}
+ */
+
+/* Element Selector */
+h1 {
+    background-color: blue;
+}
+
+/* ID selector */
+#mheading {
+    background-color: aqua;
+}
+
+/* class selector */
+.divclass {
+    background-color: burlywood;
+}
+
+/* group selector */
+
+h1,
+p,
+div,
+a,
+ul {
+    color: rgb(255, 0, 0);
+}

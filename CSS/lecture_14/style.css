@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: sandybrown;
+}
+
+p {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-style: italic; */
+    /* font-size: 24px; */
+    /* line-height: 30px; */
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+
+    /* color set */
+    color: aqua;
+    color: rgb(200, 100, 50);
+    color: #ff0016;
+    color: rgba(250, 50, 190, 0.5);
+}
+

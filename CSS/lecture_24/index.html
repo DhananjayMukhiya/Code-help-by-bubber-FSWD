@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            transition: background-color 0.5s ease-in-out;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background-color: lightblue;
+            transition: width 0.5s ease-in-out;
+        }
+
+        .box:hover {
+            width: 200px;
+        }
+
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background-color: blue;
+            transition: width 1s, height 1s, background-color 0.5s;
+        }
+
+        .box1:hover {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        .text {
+            font-size: 20px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .text:hover {
+            opacity: 1;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            transition: background-color 1s ease-in 0.5s;
+        }
+
+        .box2:hover {
+            background-color: yellow;
+        }
+
+        .button1 {
+            background-color: purple;
+            color: white;
+            padding: 15px 30px;
+            margin-top: 10px;
+            border: none;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .button1:hover {
+            transform: scale(1.1);
+        }
+
+        /* .menu {
+            width: 200px;
+            height: 100%;
+            margin-top: 10px;
+            background-color: black;
+            color: white;
+            position: fixed;
+            left: 0px;
+            transition: left 0.5s ease-in-out;
+        }
+
+        .menu:hover {
+            left: -500px;
+        } */
+
+        .box3 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background-color: pink;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .box3:hover {
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button>Click Me!</button>
+
+        <div class="box"></div>
+        <div class="box1"></div>
+
+        <h2 class="text">Dhananjay</h2>
+
+        <div class="box2"></div>
+
+        <form action="">
+            <input type="submit" value="Sign-in" class="button1">
+        </form>
+
+        <div class="menu"></div>
+
+        <div class="box3"></div>
+    </div>
+</body>
+
+</html>
